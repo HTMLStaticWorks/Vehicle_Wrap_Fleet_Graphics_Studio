@@ -1803,7 +1803,7 @@ body.dark-mode .map-container iframe {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 6rem 3rem 4rem 3rem;
-    gap: 1.5rem;
+    gap: 0.5rem;
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
     transition: right var(--transition-normal);
     z-index: 1000;
@@ -1820,7 +1820,7 @@ body.dark-mode .map-container iframe {
   .nav-link {
     font-size: 1.2rem;
     width: 100%;
-    padding: 0.75rem 0;
+    padding: 0.4rem 0;
   }
 
   .nav .mobile-only.btn {
@@ -1910,8 +1910,10 @@ body.dark-mode .map-container iframe {
     gap: 1.5rem !important;
   }
 
-  .premium-card {
-    padding: 1.5rem !important;
+  .card-cta {
+    white-space: normal !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .stats-grid {
