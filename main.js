@@ -94,6 +94,45 @@ function initMobileMenu() {
       document.body.style.overflow = '';
     });
   });
+
+  // Move RTL and Theme toggles into mobile menu on <=1024px screens
+  const moveToggles = () => {
+    const rtlToggle = document.getElementById('rtl-toggle');
+    const themeToggle = document.getElementById('theme-toggle');
+    const headerActions = document.querySelector('.header-actions');
+    const desktopSignUp = document.querySelector('.header-actions .desktop-only');
+    
+    if (window.innerWidth <= 1024) {
+      if (rtlToggle && rtlToggle.parentElement === headerActions) {
+        let toggleWrapper = navMenu.querySelector('.mobile-toggles');
+        if (!toggleWrapper) {
+          toggleWrapper = document.createElement('div');
+          toggleWrapper.className = 'mobile-toggles';
+          toggleWrapper.style.display = 'flex';
+          toggleWrapper.style.gap = '1rem';
+          toggleWrapper.style.justifyContent = 'center';
+          toggleWrapper.style.marginTop = '1rem';
+          toggleWrapper.style.paddingTop = '1rem';
+          toggleWrapper.style.borderTop = '1px solid var(--border-color)';
+          navMenu.appendChild(toggleWrapper);
+        }
+        toggleWrapper.appendChild(rtlToggle);
+        toggleWrapper.appendChild(themeToggle);
+      }
+    } else {
+      if (rtlToggle && rtlToggle.parentElement !== headerActions) {
+        headerActions.insertBefore(rtlToggle, desktopSignUp);
+        headerActions.insertBefore(themeToggle, desktopSignUp);
+        const toggleWrapper = navMenu.querySelector('.mobile-toggles');
+        if (toggleWrapper && toggleWrapper.children.length === 0) {
+          toggleWrapper.remove();
+        }
+      }
+    }
+  };
+
+  window.addEventListener('resize', moveToggles);
+  moveToggles(); // Initial check
 }
 
 /* ==========================================================================

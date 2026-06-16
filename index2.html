@@ -40,11 +40,13 @@
             </svg></a>
           <div class="dropdown-menu">
             <a href="index.html" class="dropdown-item">Home 1</a>
-            <a href="index2.html" class="dropdown-item">Home 2</a>
+            <a href="index2.html" class="dropdown-item active"
+              style="background: rgba(14, 165, 233, 0.1); color: var(--accent);">Home 2</a>
           </div>
         </div>
         <a href="index.html" class="nav-link mobile-only" id="nav-home1-mob">Home 1</a>
-        <a href="index2.html" class="nav-link mobile-only active" id="nav-home2-mob">Home 2</a>
+        <a href="index2.html" class="nav-link mobile-only active" id="nav-home2-mob" style="color: var(--accent);">Home
+          2</a>
         <a href="about.html" class="nav-link" id="nav-about">About Us</a>
         <a href="services.html" class="nav-link" id="nav-services">Services</a>
         <a href="portfolio.html" class="nav-link" id="nav-portfolio">Portfolio</a>
@@ -93,9 +95,11 @@
   </header>
 
   <!-- SECTION 1: HERO -->
-  <section class="hero" id="hero" style="min-height: 80vh; padding-top: 6.5rem; padding-bottom: 3.5rem;">
+  <section class="hero" id="hero"
+    style="min-height: 80vh; padding-top: 7.5rem; padding-bottom: 6rem; display: flex; align-items: center; justify-content: center;">
     <div class="hero-bg">
-      <img src="images/wrapped_semi.png" alt="Premium wrapped semi-truck driving on open highway at golden hour">
+      <img src="images/wrapped_semi.png" alt="Premium wrapped semi-truck driving on open highway at golden hour"
+        style="object-position: center center;">
     </div>
     <!-- Gradient overlay -->
     <div
@@ -201,11 +205,11 @@
         <p class="section-subtitle">Specially engineered layouts, high-durability UV overlays, and cleanroom
           applications for commercial shipping, construction, and food service operations.</p>
       </div>
-      <div class="cards-grid">
+      <div class="cards-grid tab-full-width">
         <!-- Card 1 -->
         <div class="premium-card">
           <div class="card-img-wrapper">
-            <img src="images/trailer_wrap.png"
+            <img src="images/commerical.jpg"
               alt="Sleek transport container trailer wrapped in geometric white and cyan branding">
           </div>
           <div class="card-body">
@@ -233,7 +237,7 @@
         <!-- Card 2 -->
         <div class="premium-card">
           <div class="card-img-wrapper">
-            <img src="images/wrapped_semi.png"
+            <img src="images/long.jpg"
               alt="Sleek semi-truck cab wrapped in navy blue and cyan styling driving down highway">
           </div>
           <div class="card-body">
@@ -261,7 +265,7 @@
         <!-- Card 3 -->
         <div class="premium-card">
           <div class="card-img-wrapper">
-            <img src="images/food_truck.png"
+            <img src="images/food-truck.jpg"
               alt="Vibrant food truck wrapped in eye-catching colorful graphics at street festival">
           </div>
           <div class="card-body">
@@ -480,14 +484,17 @@
             style="font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; font-size: 0.95rem; line-height: 1.8;">
             "Velocibrand wrapped our 28 dry-van trailers in 6 days flat. The color consistency between the first and
             last trailer is identical. Our brand visibility on the I-75 corridor has increased dramatically."</p>
-          <div>
-            <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Robert Caulfield</h4>
-            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Director of Transport, Caulfield Freight
-              Solutions</p>
+          <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
+            <img src="https://ui-avatars.com/api/?name=Robert+Caulfield&background=0D8ABC&color=fff&rounded=true"
+              alt="Robert Caulfield" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+            <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
+              <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Robert Caulfield</h4>
+              <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Director, Caulfield Solutions</p>
+            </div>
           </div>
         </div>
         <div class="premium-card"
-          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1);">
+          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); display: flex; flex-direction: column;">
           <div style="display: flex; gap: 0.2rem; color: #F59E0B; margin-bottom: 1.25rem;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <polygon
@@ -519,13 +526,17 @@
             style="font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; font-size: 0.95rem; line-height: 1.8;">
             "I run a food truck at farmers markets every weekend. Since Velocibrand wrapped my truck with their bold
             full-coverage design, my sales per event have gone up by 35%. It's my best marketing investment."</p>
-          <div>
-            <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Amara Osei</h4>
-            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Owner, Golden Spice Food Co.</p>
+          <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
+            <img src="https://ui-avatars.com/api/?name=Amara+Osei&background=0D8ABC&color=fff&rounded=true"
+              alt="Amara Osei" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+            <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
+              <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Amara Osei</h4>
+              <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Owner, Golden Spice Food Co.</p>
+            </div>
           </div>
         </div>
         <div class="premium-card"
-          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1);">
+          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); display: flex; flex-direction: column;">
           <div style="display: flex; gap: 0.2rem; color: #F59E0B; margin-bottom: 1.25rem;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <polygon
@@ -557,18 +568,19 @@
             style="font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; font-size: 0.95rem; line-height: 1.8;">
             "My sleeper cab wrap turned heads at every truck stop from Detroit to Dallas. The 3M film quality is
             outstanding — 3 years in and it still looks like day one. Velocibrand is the real deal."</p>
-          <div>
-            <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Tony Vásquez</h4>
-            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Owner-Operator, TLV Express Hauling</p>
+          <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
+            <img src="https://ui-avatars.com/api/?name=Tony+Vásquez&background=0D8ABC&color=fff&rounded=true"
+              alt="Tony Vásquez" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+            <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
+              <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Tony Vásquez</h4>
+              <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Owner-Operator, TLV Express</p>
+            </div>
           </div>
         </div>
       </div>
-      <div style="text-align: center; margin-top: 3.5rem;">
-        <a href="signup.html" class="btn btn-primary" style="margin-right: 1rem; font-size: 1rem;">Start Your Project
-          Today</a>
-        <a href="portfolio.html" class="btn btn-secondary"
-          style="background: rgba(255,255,255,0.1); color: #FFFFFF; border-color: rgba(255,255,255,0.25); font-size: 1rem;">View
-          Full Portfolio</a>
+      <div
+        style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 3.5rem; padding-bottom: 2rem;">
+        <a href="signup.html" class="btn btn-primary" style="font-size: 1rem;">Start Your Project Today</a>
       </div>
     </div>
   </section>
