@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velocibrand | Heavy Transport Wraps & Fleet Graphics Edition 2</title>
+  <meta name="description"
+    content="Maximize highway impressions. High-end heavy transport semi-truck wraps, trailer branding, and nationwide fleet coordination by Velocibrand.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Velocibrand | Heavy Transport Wraps & Fleet Graphics Edition 2">
+  <meta property="og:description"
+    content="Sleek semi-truck wrap designs and commercial vehicle installations nationwide.">
+  <meta property="og:image" content="images/wrapped_semi.png">
+  <meta property="og:type" content="website">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER — sits above hero, never overlapping -->
+  <header class="header sticky" id="header"
+    style="background: var(--bg-header); border-bottom: 1px solid rgba(255,255,255,0.12);">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">V</div>
+        <div class="logo-text">Velocibrand<span>.</span></div>
+      </a>
+      <nav class="nav" id="nav-menu">
+        <div class="nav-dropdown desktop-only">
+          <a href="#" class="nav-link dropdown-toggle active" id="nav-home">Home <svg class="dropdown-arrow" width="10"
+              height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M1 1L5 5L9 1" stroke-linecap="round" stroke-linejoin="round" />
+            </svg></a>
+          <div class="dropdown-menu">
+            <a href="index.html" class="dropdown-item">Home 1</a>
+            <a href="index2.html" class="dropdown-item">Home 2</a>
+          </div>
+        </div>
+        <a href="index.html" class="nav-link mobile-only" id="nav-home1-mob">Home 1</a>
+        <a href="index2.html" class="nav-link mobile-only active" id="nav-home2-mob">Home 2</a>
+        <a href="about.html" class="nav-link" id="nav-about">About Us</a>
+        <a href="services.html" class="nav-link" id="nav-services">Services</a>
+        <a href="portfolio.html" class="nav-link" id="nav-portfolio">Portfolio</a>
+        <a href="fleet-solutions.html" class="nav-link" id="nav-fleet">Fleet Solutions</a>
+        <a href="process.html" class="nav-link" id="nav-process">Process</a>
+        <a href="contact.html" class="nav-link" id="nav-contact">Contact</a>
+        <a href="signup.html" class="btn btn-primary mobile-only"
+          style="width: 100%; margin-top: 1rem; justify-content: center;">Sign Up</a>
+      </nav>
+      <div class="header-actions">
+        <button id="rtl-toggle" class="theme-toggle" aria-label="Toggle Layout Direction"
+          style="font-size: 0.85rem; font-weight: 500;">RTL</button>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <a href="signup.html" class="btn btn-primary desktop-only"
+          style="padding: 0.6rem 1.25rem; font-size: 0.9rem;">Sign Up</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <svg class="hamburger-close-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: HERO -->
+  <section class="hero" id="hero" style="min-height: 80vh; padding-top: 6.5rem; padding-bottom: 3.5rem;">
+    <div class="hero-bg">
+      <img src="images/wrapped_semi.png" alt="Premium wrapped semi-truck driving on open highway at golden hour">
+    </div>
+    <!-- Gradient overlay -->
+    <div
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(6,15,32,0.85) 0%, rgba(12,26,58,0.6) 100%); z-index: 2;">
+    </div>
+    <div class="container" style="position: relative; z-index: 3; text-align: center; width: 100%;">
+      <div style="max-width: 860px; margin: 0 auto;">
+        <span class="badge"
+          style="background: rgba(29,140,235,0.25); color: #FFFFFF; border-color: rgba(29,140,235,0.5);">Heavy Transport
+          Livery</span>
+        <h1 class="hero-title" style="color: #FFFFFF; text-shadow: none; font-size: 3.5rem;">Dominate the Highway
+          <span>With Your Brand</span>
+        </h1>
+        <p class="hero-subtitle" style="color: rgba(255,255,255,0.9);">High-fidelity truck wraps, trailer graphics, and
+          fleet branding designed to command 70,000+ daily impressions across the country's transportation networks.</p>
+        <div style="display: flex; gap: 1.5rem; justify-content: center; padding-bottom: 3rem; flex-wrap: wrap;">
+          <a href="fleet-solutions.html" class="btn btn-secondary"
+            style="background: rgba(255,255,255,0.12); color: #FFFFFF; border-color: rgba(255,255,255,0.35); font-size: 1rem; padding: 1rem 2.25rem;">Fleet
+            Solutions &rarr;</a>
+        </div>
+        <!-- Trust badges -->
+        <div style="display: flex; gap: 2.5rem; flex-wrap: wrap; justify-content: center;">
+          <div
+            style="display: flex; align-items: center; gap: 0.6rem; color: rgba(255,255,255,0.8); font-size: 0.9rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#29A3F5" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+            <span>PDAA Certified</span>
+          </div>
+          <div
+            style="display: flex; align-items: center; gap: 0.6rem; color: rgba(255,255,255,0.8); font-size: 0.9rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#29A3F5" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            <span>3M Preferred Converter</span>
+          </div>
+          <div
+            style="display: flex; align-items: center; gap: 0.6rem; color: rgba(255,255,255,0.8); font-size: 0.9rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#29A3F5" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <span>48hr Turnaround</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: HOW IT WORKS (no bg color) -->
+  <section class="section"
+    style="padding: 2.5rem 0; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <span class="badge">How It Works</span>
+        <h2 style="font-size: 2rem; margin-top: 0.75rem;">From Brief to Road-Ready in 4 Steps</h2>
+      </div>
+      <div class="stack-on-mobile"
+        style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative;">
+        <div class="desktop-only"
+          style="position: absolute; top: 32px; left: 12.5%; right: 12.5%; height: 2px; background: var(--border-color); z-index: 0;">
+        </div>
+        <div style="text-align: center; padding: 0 1.5rem; position: relative; z-index: 1;">
+          <div
+            style="width: 64px; height: 64px; background: var(--premium-gradient); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.5rem; font-weight: 700; color: #fff;">
+            01</div>
+          <h3 style="font-size: 1rem; font-weight: 560; margin-bottom: 0.5rem;">Discovery Brief</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem;">Vehicle specs, brand assets &amp; timeline confirmed.
+          </p>
+        </div>
+        <div style="text-align: center; padding: 0 1.5rem; position: relative; z-index: 1;">
+          <div
+            style="width: 64px; height: 64px; background: var(--premium-gradient); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.5rem; font-weight: 700; color: #fff;">
+            02</div>
+          <h3 style="font-size: 1rem; font-weight: 560; margin-bottom: 0.5rem;">3D Design Proof</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem;">Photorealistic mockups for client approval.</p>
+        </div>
+        <div style="text-align: center; padding: 0 1.5rem; position: relative; z-index: 1;">
+          <div
+            style="width: 64px; height: 64px; background: var(--premium-gradient); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.5rem; font-weight: 700; color: #fff;">
+            03</div>
+          <h3 style="font-size: 1rem; font-weight: 560; margin-bottom: 0.5rem;">Print &amp; Install</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem;">UV-stable wide-format print + cleanroom install.</p>
+        </div>
+        <div style="text-align: center; padding: 0 1.5rem; position: relative; z-index: 1;">
+          <div
+            style="width: 64px; height: 64px; background: var(--premium-gradient); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.5rem; font-weight: 700; color: #fff;">
+            04</div>
+          <h3 style="font-size: 1rem; font-weight: 560; margin-bottom: 0.5rem;">Deliver + 7yr Warranty</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem;">QC inspection, handover &amp; lifetime aftercare.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: HEAVY ASSET SERVICE CARDS -->
+  <section class="section" id="services-preview">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Heavy Asset Specialization</span>
+        <h2 class="section-title">Built for the Biggest Vehicles on the Road</h2>
+        <p class="section-subtitle">Specially engineered layouts, high-durability UV overlays, and cleanroom
+          applications for commercial shipping, construction, and food service operations.</p>
+      </div>
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <div class="premium-card">
+          <div class="card-img-wrapper">
+            <img src="images/trailer_wrap.png"
+              alt="Sleek transport container trailer wrapped in geometric white and cyan branding">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Commercial Trailer Graphics</h3>
+            <p class="card-desc">Maximize your cargo trailer's advertisement space. Structural vinyl layout calculations
+              designed to span smoothly over rivets and slats for seamless visuals.</p>
+            <ul class="card-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Full & partial trailer side panels</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Accurate Pantone brand color proofs</span>
+              </li>
+            </ul>
+            <a href="services.html" class="btn btn-accent card-cta">Explore Trailers</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="premium-card">
+          <div class="card-img-wrapper">
+            <img src="images/wrapped_semi.png"
+              alt="Sleek semi-truck cab wrapped in navy blue and cyan styling driving down highway">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Long-Haul Sleeper Cab Wraps</h3>
+            <p class="card-desc">Give your tractor units a premium paint-like wrap finish. High-end cast films protect
+              panels from salt chips, chemical wear, and UV degradation across 7+ years.</p>
+            <ul class="card-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>3M Controltac repositionable vinyl</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Heat-sealed edge post-cure lock</span>
+              </li>
+            </ul>
+            <a href="services.html" class="btn btn-accent card-cta">Explore Sleeper Cabs</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="premium-card">
+          <div class="card-img-wrapper">
+            <img src="images/food_truck.png"
+              alt="Vibrant food truck wrapped in eye-catching colorful graphics at street festival">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Food Truck & Event Wraps</h3>
+            <p class="card-desc">Turn your mobile kitchen into an irresistible brand experience. Vivid full wraps with
+              high-saturation eco-solvent inks that attract foot traffic and drive sales.</p>
+            <ul class="card-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Matte, gloss & chrome finishes</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Menu panel & window perforations</span>
+              </li>
+            </ul>
+            <a href="services.html" class="btn btn-accent card-cta">Explore Food Truck Wraps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: ROI & CPM IMPACT -->
+  <section class="section" id="roi-section"
+    style="background: var(--bg-card); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="stack-on-mobile"
+        style="display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center;">
+        <div>
+          <span class="badge">Advertising ROI</span>
+          <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; line-height: 1.2;">Your Fleet Is Your Lowest-Cost
+            Advertisement</h2>
+          <p style="color: var(--text-muted); margin-bottom: 2rem; line-height: 1.75;">Research by the Outdoor
+            Advertising Association of America confirms vehicle wraps generate up to <strong>70,000 impressions</strong>
+            per vehicle per day at a fraction of any competing media channel's cost-per-thousand rate.</p>
+          <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2.5rem;">
+            <div>
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 550; margin-bottom: 0.35rem;">
+                <span>Vehicle Wrap (Velocibrand)</span><span style="color: var(--success); font-weight: 600;">$0.48
+                  CPM</span>
+              </div>
+              <div
+                style="width: 100%; height: 14px; background: var(--border-color); border-radius: 4px; overflow: hidden;">
+                <div style="width: 8%; height: 100%; background: var(--premium-gradient);"></div>
+              </div>
+            </div>
+            <div>
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 550; margin-bottom: 0.35rem;">
+                <span>Outdoor Billboard</span><span>$3.56 CPM</span>
+              </div>
+              <div
+                style="width: 100%; height: 14px; background: var(--border-color); border-radius: 4px; overflow: hidden;">
+                <div style="width: 42%; height: 100%; background: var(--accent); opacity: 0.5;"></div>
+              </div>
+            </div>
+            <div>
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 550; margin-bottom: 0.35rem;">
+                <span>Radio Advertising</span><span>$7.75 CPM</span>
+              </div>
+              <div
+                style="width: 100%; height: 14px; background: var(--border-color); border-radius: 4px; overflow: hidden;">
+                <div style="width: 65%; height: 100%; background: var(--accent); opacity: 0.35;"></div>
+              </div>
+            </div>
+            <div>
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 550; margin-bottom: 0.35rem;">
+                <span>Television Commercial</span><span>$28.00 CPM</span>
+              </div>
+              <div
+                style="width: 100%; height: 14px; background: var(--border-color); border-radius: 4px; overflow: hidden;">
+                <div style="width: 95%; height: 100%; background: var(--accent); opacity: 0.2;"></div>
+              </div>
+            </div>
+          </div>
+          <a href="fleet-solutions.html" class="btn btn-primary">Calculate Your Fleet ROI &rarr;</a>
+        </div>
+        <div class="stack-on-mobile" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+          <div
+            style="text-align: center; padding: 2.5rem 1.5rem; background: var(--premium-gradient); border-radius: var(--radius-md); color: #fff;">
+            <div style="font-size: 2.75rem; font-weight: 680; margin-bottom: 0.5rem;">70K+</div>
+            <p style="font-size: 0.85rem; opacity: 0.9; font-weight: 500;">Daily Impressions Per Vehicle</p>
+          </div>
+          <div
+            style="text-align: center; padding: 2.5rem 1.5rem; background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md);">
+            <div style="font-size: 2.75rem; font-weight: 680; margin-bottom: 0.5rem;">
+              $0.48</div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">Cost Per Thousand Impressions</p>
+          </div>
+          <div
+            style="text-align: center; padding: 2.5rem 1.5rem; background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md);">
+            <div style="font-size: 2.75rem; font-weight: 680; margin-bottom: 0.5rem;">
+              7 Yrs</div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">Average Wrap Lifespan</p>
+          </div>
+          <div
+            style="text-align: center; padding: 2.5rem 1.5rem; background: var(--premium-gradient); border-radius: var(--radius-md); color: #fff;">
+            <div style="font-size: 2.75rem; font-weight: 680; margin-bottom: 0.5rem;">97%</div>
+            <p style="font-size: 0.85rem; opacity: 0.9; font-weight: 500;">Brand Recall Rate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: MATERIAL PARTNERS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Certified Partners</span>
+        <h2 class="section-title">Premium Materials We Trust</h2>
+        <p class="section-subtitle">Every wrap leaves our facility built with materials from the world's most trusted
+          vinyl and ink manufacturers, backed by manufacturer warranties.</p>
+      </div>
+      <div class="stack-on-mobile"
+        style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-bottom: 4rem;">
+        <div class="premium-card" style="padding: 2.5rem; text-align: center;">
+          <div
+            style="width: 80px; height: 80px; background: rgba(29,140,235,0.08); border: 2px solid rgba(29,140,235,0.2); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 style="font-size: 1.2rem; font-weight: 560; margin-bottom: 0.75rem; color: var(--accent);">3M Controltac™
+            IJ180</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.7;">Pressure-activated repositionable
+            adhesive. Bubble-free application on complex cab contours. 7-year outdoor rated cast film, OEM approved.</p>
+        </div>
+        <div class="premium-card" style="padding: 2.5rem; text-align: center;">
+          <div
+            style="width: 80px; height: 80px; background: rgba(29,140,235,0.08); border: 2px solid rgba(29,140,235,0.2); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+          <h3 style="font-size: 1.2rem; font-weight: 560; margin-bottom: 0.75rem; color: var(--accent);">Avery Dennison
+            MPI 1105</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.7;">EZ Apply RS repositionable adhesive
+            with Superior Conformability for deep rivet channels on trailer side panels and heavy truck beds.</p>
+        </div>
+        <div class="premium-card" style="padding: 2.5rem; text-align: center;">
+          <div
+            style="width: 80px; height: 80px; background: rgba(29,140,235,0.08); border: 2px solid rgba(29,140,235,0.2); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <h3 style="font-size: 1.2rem; font-weight: 560; margin-bottom: 0.75rem; color: var(--accent);">HP Latex 570
+            Print System</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.7;">Wide-format production printing
+            achieving Delta-E &lt;2 color accuracy. Pantone-certified outputs ensure precise fleet color consistency
+            across every batch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: FLEET CLIENT TESTIMONIALS -->
+  <section class="section" style="background: var(--primary); position: relative; overflow: hidden;">
+    <div
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: var(--premium-gradient); opacity: 0.04;">
+    </div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="section-header">
+        <span class="badge"
+          style="background: rgba(255,255,255,0.1); color: #FFFFFF; border-color: rgba(255,255,255,0.2);">Client
+          Voices</span>
+        <h2 class="section-title" style="color: #FFFFFF;">What Our Fleet Clients Say</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.75);">Trusted by logistics companies, construction
+          firms, food service operators, and independent owner-operators nationwide.</p>
+      </div>
+      <div class="stack-on-mobile" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+        <div class="premium-card"
+          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1);">
+          <div style="display: flex; gap: 0.2rem; color: #F59E0B; margin-bottom: 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+          </div>
+          <p
+            style="font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; font-size: 0.95rem; line-height: 1.8;">
+            "Velocibrand wrapped our 28 dry-van trailers in 6 days flat. The color consistency between the first and
+            last trailer is identical. Our brand visibility on the I-75 corridor has increased dramatically."</p>
+          <div>
+            <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Robert Caulfield</h4>
+            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Director of Transport, Caulfield Freight
+              Solutions</p>
+          </div>
+        </div>
+        <div class="premium-card"
+          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1);">
+          <div style="display: flex; gap: 0.2rem; color: #F59E0B; margin-bottom: 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+          </div>
+          <p
+            style="font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; font-size: 0.95rem; line-height: 1.8;">
+            "I run a food truck at farmers markets every weekend. Since Velocibrand wrapped my truck with their bold
+            full-coverage design, my sales per event have gone up by 35%. It's my best marketing investment."</p>
+          <div>
+            <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Amara Osei</h4>
+            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Owner, Golden Spice Food Co.</p>
+          </div>
+        </div>
+        <div class="premium-card"
+          style="padding: 2.5rem; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1);">
+          <div style="display: flex; gap: 0.2rem; color: #F59E0B; margin-bottom: 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+          </div>
+          <p
+            style="font-style: italic; color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; font-size: 0.95rem; line-height: 1.8;">
+            "My sleeper cab wrap turned heads at every truck stop from Detroit to Dallas. The 3M film quality is
+            outstanding — 3 years in and it still looks like day one. Velocibrand is the real deal."</p>
+          <div>
+            <h4 style="font-size: 1rem; font-weight: 550; color: #FFFFFF;">Tony Vásquez</h4>
+            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.55);">Owner-Operator, TLV Express Hauling</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 3.5rem;">
+        <a href="signup.html" class="btn btn-primary" style="margin-right: 1rem; font-size: 1rem;">Start Your Project
+          Today</a>
+        <a href="portfolio.html" class="btn btn-secondary"
+          style="background: rgba(255,255,255,0.1); color: #FFFFFF; border-color: rgba(255,255,255,0.25); font-size: 1rem;">View
+          Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">V</div>
+            <div class="logo-text" style="color: #FFFFFF;">Velocibrand<span>.</span></div>
+          </a>
+          <p class="footer-desc">High-impact fleet graphics and vehicle wrap designs that transform transportation
+            assets into mobile marketing billboards.</p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                </path>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="process.html" class="footer-link">Design Process</a></li>
+            <li><a href="testimonials.html" class="footer-link">Testimonials</a></li>
+            <li><a href="faq.html" class="footer-link">FAQs</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html" class="footer-link">Fleet Graphics</a></li>
+            <li><a href="services.html" class="footer-link">Truck Wraps</a></li>
+            <li><a href="services.html" class="footer-link">Van Branding</a></li>
+            <li><a href="services.html" class="footer-link">Trailer Graphics</a></li>
+            <li><a href="services.html" class="footer-link">Reflective Safety</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Solutions</h4>
+          <ul class="footer-links">
+            <li><a href="fleet-solutions.html" class="footer-link">Corporate Fleets</a></li>
+            <li><a href="fleet-solutions.html" class="footer-link">Franchise Program</a></li>
+            <li><a href="fleet-solutions.html" class="footer-link">Multi-location Rollout</a></li>
+            <li><a href="portfolio.html" class="footer-link">Showcase Portfolio</a></li>
+            <li><a href="signup.html" class="footer-link">Sign Up</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact Studio</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>482 Transit Highway, Suite 100, Detroit, MI 48201</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            <span>(800) 555-WRAP</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>fleet@velocibrand.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Velocibrand Fleet Graphics Studio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top Button -->
+  <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to Top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Script JS Link -->
+  <script src="main.js"></script>
+</body>
+
+</html>
